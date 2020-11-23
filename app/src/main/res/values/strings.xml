@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Desmotivacao</string>
+    <string name="InformeSeuNome">Informe seu nome</string>
+    <string name="Salvar">Salvar</string>
 </resources>
