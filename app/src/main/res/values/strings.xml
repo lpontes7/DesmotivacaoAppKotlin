@@ -2,4 +2,7 @@
     <string name="app_name">Desmotivacao</string>
     <string name="InformeSeuNome">Informe seu nome</string>
     <string name="Salvar">Salvar</string>
+    <string name="InformeNome">Por favor infome seu nome</string>
+    <string name="usuario">Usuário</string>
+    <string name="novaFrase">Nova Frase</string>
 </resources>

@@ -1,7 +1,9 @@
 package com.lpontes7.desmotivacao
+import android.content.Intent
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.Toast
 import com.lpontes7.desmotivacao.util.Constants
 import com.lpontes7.desmotivacao.util.Preferences
 import kotlinx.android.synthetic.main.activity_welcome.*
@@ -29,7 +31,17 @@ class Welcome : AppCompatActivity(), View.OnClickListener {
 
     private fun save (){
         val name: String = editText.text.toString()
-        mPreferences.storeString(Constants.Key.Name, name)
+
+        if (name==""){
+            Toast.makeText(this, getString(R.string.InformeNome), Toast.LENGTH_LONG ).show()
+        } else {
+            mPreferences.storeString(Constants.Key.Name, name)
+
+            val intent : Intent = Intent(this , MainActivity::class.java)
+            startActivity(intent)
+
+            finish()
+        }
     }
 
 }
