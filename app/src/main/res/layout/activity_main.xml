@@ -23,6 +23,7 @@
                 android:src="@drawable/ic_fogo_apagado"
                 android:layout_weight="1"
                 android:layout_gravity="center"
+                android:tint="@color/fogoApagado"
         />
 
     </LinearLayout>
