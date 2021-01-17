@@ -5,5 +5,9 @@ class Constants private constructor() {
         val Name = "Fulano"
     }
 
+    object filtoFogo{
+        val pegandoFogo = 1
+        val semFogo = 2
+    }
 }
 

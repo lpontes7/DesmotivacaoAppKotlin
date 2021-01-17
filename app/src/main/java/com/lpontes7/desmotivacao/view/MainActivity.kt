@@ -1,7 +1,8 @@
-package com.lpontes7.desmotivacao
+package com.lpontes7.desmotivacao.view
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.lpontes7.desmotivacao.R
 
 class MainActivity : AppCompatActivity() {
 

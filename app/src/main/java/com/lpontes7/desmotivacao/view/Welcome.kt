@@ -1,9 +1,10 @@
-package com.lpontes7.desmotivacao
+package com.lpontes7.desmotivacao.view
 import android.content.Intent
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
+import com.lpontes7.desmotivacao.R
 import com.lpontes7.desmotivacao.util.Constants
 import com.lpontes7.desmotivacao.util.Preferences
 import kotlinx.android.synthetic.main.activity_welcome.*
@@ -23,7 +24,7 @@ class Welcome : AppCompatActivity(), View.OnClickListener {
 
     override fun onClick(view: View) {
         val id = view.id
-        if (id==R.id.buttonSave){
+        if (id== R.id.buttonSave){
             save()
         }
     }
