@@ -38,7 +38,7 @@ class Welcome : AppCompatActivity(), View.OnClickListener {
         } else {
             mPreferences.storeString(Constants.Key.Name, name)
 
-            val intent : Intent = Intent(this , MainActivity::class.java)
+            val intent  = Intent(this , MainActivity::class.java)
             startActivity(intent)
 
             finish()
